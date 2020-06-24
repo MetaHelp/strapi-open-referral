@@ -1,0 +1,88 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services",
+  "info": {
+    "name": "service"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "organization": {
+      "type": "string"
+    },
+    "serviceId": {
+      "type": "string"
+    },
+    "alternateName": {
+      "type": "string"
+    },
+    "locations": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "email": {
+      "type": "email"
+    },
+    "status": {
+      "type": "string"
+    },
+    "interpretationServices": {
+      "type": "string"
+    },
+    "applicationProcess": {
+      "type": "text"
+    },
+    "waitTime": {
+      "type": "string"
+    },
+    "fees": {
+      "type": "string"
+    },
+    "accreditations": {
+      "type": "string"
+    },
+    "licenses": {
+      "type": "string"
+    },
+    "taxonomy": {
+      "type": "string"
+    },
+    "phones": {
+      "type": "string"
+    },
+    "schedule": {
+      "type": "string"
+    },
+    "contacts": {
+      "type": "string"
+    },
+    "details": {
+      "type": "string"
+    },
+    "serviceArea": {
+      "type": "string"
+    },
+    "metadata": {
+      "type": "string"
+    },
+    "AIRSTaxonomy_x": {
+      "type": "string"
+    },
+    "taxonomyWithDescriptions": {
+      "type": "string"
+    }
+  }
+}

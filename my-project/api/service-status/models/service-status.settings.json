@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "service_statuses",
+  "info": {
+    "name": "serviceStatus"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "statusType": {
+      "type": "string"
+    },
+    "statusTypeId": {
+      "type": "string"
+    }
+  }
+}

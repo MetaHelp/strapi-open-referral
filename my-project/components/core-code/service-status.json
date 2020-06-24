@@ -1,0 +1,9 @@
+{
+  "collectionName": "components_core_code_service_statuses",
+  "info": {
+    "name": "serviceStatus",
+    "icon": "wrench"
+  },
+  "options": {},
+  "attributes": {}
+}
